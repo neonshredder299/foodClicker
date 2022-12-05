@@ -1,6 +1,7 @@
 let food = 0; 
 let perClick = 1;
 let weight = 2000;
+let poop;
 document.getElementById("weight").innerHTML = weight;
 update();
 
