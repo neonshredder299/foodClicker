@@ -25,6 +25,6 @@ function check(toAdd,req)
 }
 function eat()
 {
-    weight+=50;
+    weight+= Math.floor(Math.random() * 1000) + 50;
     document.getElementById("weight").innerHTML = weight;
 }
