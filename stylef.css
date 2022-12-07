@@ -1,1 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+*{
+  font-family: Nunito, sans-serif;
+  text-align: center;
+}
+img{
+  max-width: 100%;
+  aspect-ratio: 1;
+}
+html,body{
+  margin: 0px;
+  height: 100%;
+}
+body{
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 10vh 45vh 45vh;
+  grid-template-areas:
+    "t t"
+    "s i"
+    "b i";
+}
+button{
+  height: 75px;
+  width: 200px;
+  background-color: #666;
+  border-radius: 10px;
+  box-shadow: 0px 8px #333;
+  transition: .2s ease;
+}
+button:hover{
+  cursor: pointer;
+  background-color:#777
+}
+button:active{
+  box-shadow: 0px 0px transparent;
+  transform: translateY(8px)
+}
 
+#titleDiv{
+  background: #555;
+  grid-area: t;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#stats{
+  background: #444;
+  grid-area: s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  tex
+}
+#buttons{
+  background: #444;
+  grid-area: b;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+#image{
+  background: #555;
+  grid-area: i;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
