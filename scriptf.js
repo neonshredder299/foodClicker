@@ -25,7 +25,7 @@ function update(){
     else if(width<1500)
     {
         document.getElementById("title").innerHTML = "Fat Eric (fat)";
-        document.getElementById("eric").src = "IMG_9899.png";
+        document.getElementById("eric").src = "IMG_9899.PNG";
     }
     else if(width<3750)
     {
