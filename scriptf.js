@@ -17,6 +17,25 @@ function update(){
     document.getElementById("add").innerHTML = Math.round(toAdd);
     eric.width = width;
     eric.height = height;
+    if(width<700)
+    {
+        document.getElementById("title").innerHTML = "Normal Eric (still fat)";
+        
+    }
+    else if(width<1500)
+    {
+        document.getElementById("title").innerHTML = "Fat Eric (fat)";
+        document.getElementById("eric").src = "IMG_9899.png";
+    }
+    else if(width<3750)
+    {
+        document.getElementById("title").innerHTML = "HUGE HUMONGOUS ERIC";
+        document.getElementById("eric").src = "pumpkin king.png";
+    }
+    else{
+        document.getElementById("title").innerHTML = "COLLOSAL GOBLIN ERIC";
+        document.getElementById("eric").src = "goblin.png";
+    }
 
 }
 function increment(){
@@ -32,7 +51,7 @@ function check()
         width+=req/50;
         height+=req/50;
         req*=1.1;
-        toAdd+=0.1;
+        toAdd+=0.2;
         eat();
         update();
     }
