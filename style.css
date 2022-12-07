@@ -6,6 +6,7 @@
 img{
   max-width: 100%;
   aspect-ratio: 1;
+  transition: .5s;
 }
 html,body{
   margin: 0px;
