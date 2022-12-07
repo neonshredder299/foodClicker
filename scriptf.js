@@ -30,7 +30,7 @@ function update(){
   {
     document.getElementById("title").innerHTML = "PUMPKIN KING ERIC";
     document.getElementById("titleDiv").style.background = "#f54905";
-    document.getElementById("eric").src = "pumpking king.png";
+    document.getElementById("eric").src = "pumpking_king.png";
   }
   else{
     document.getElementById("title").innerHTML = "COLLOSAL GOBLIN ERIC";
